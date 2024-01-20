@@ -4,7 +4,8 @@ import LandingPage from './LandingPage';
 const App = () => {
   return (
     <div>
-      <LandingPage />
+      creamy
+      
     </div>
   );
 };
