@@ -7,6 +7,10 @@ import { Saved } from './Components/Saved';
 import { Subscribed } from './Components/Subscribed';
 import { Home } from './Components/Home';
 import { Settings } from './Components/Settings';
+import  Login  from './Components/Login';
+import  Coin  from './Components/Coin';
+import  Footer  from './Footer'; // Importing Footer component
+
 
 function App() {
   return (
@@ -23,8 +27,11 @@ function App() {
               <Route path='/saved' element={<Saved />} />
               <Route path='/subscribed' element={<Subscribed />} />
               <Route path='/settings' element={<Settings />} />
+              <Route path='/login' element={<Login />} />
+              <Route path='/coin' element={<Coin />} />
               {/* Add more Route components for other pages/components */}
             </Routes>
+            <Footer /> {/* Include Footer component here */}
           </div>
         </div>
       </div>

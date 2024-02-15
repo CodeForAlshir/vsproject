@@ -29,13 +29,15 @@ const Sidebar = () => {
               />
             </Link>
             <Link to="/" className="brand-name">
-              KleinPastry corp
+              Stream Sphere
             </Link>
           </div>
           <Link to="/">Home</Link>
           <Link to="/subscribed">Subscribed</Link>
           <Link to="/settings">Settings</Link>
           <Link to="/saved">Saved</Link>
+          <Link to="/login">Login</Link>
+          <Link to="/coin">S-Coin</Link>
         </>
       )}
     </div>
