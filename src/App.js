@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Sidebar from './Sidebar';
 import { Saved } from './Components/Saved';
 import { Subscribed } from './Components/Subscribed';
-import { Home } from './Components/Home';
+import  Home  from './Components/Home';
 import { Settings } from './Components/Settings';
 import  Login  from './Components/Login';
 import  Coin  from './Components/Coin';
