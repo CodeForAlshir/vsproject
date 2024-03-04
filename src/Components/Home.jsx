@@ -29,7 +29,7 @@ function Home() {
 
   return (
     <div className="app">
-      <h1>KleinFlix</h1>
+      <h1>Stream Sphere</h1>
       <input
         type="text"
         placeholder="Search videos..."
